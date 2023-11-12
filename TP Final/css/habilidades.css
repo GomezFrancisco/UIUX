@@ -162,3 +162,10 @@ footer .footer-bottom{
 div h2 {
     text-align: center;
 }
+
+.skills-top .second img{
+    display: column;
+    position: relative;
+    height: 195px;
+    width: 350px;
+}
