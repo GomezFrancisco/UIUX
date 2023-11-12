@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.blogspot {
+    background-color: #808080;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60px;
+    background-color: #acadaf;
+    border-radius: 2%;
+}
+nav .nav-home-container {
+    margin-left: 50px;
+}
+
+nav .nav-home-container img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .logo-perf {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-link img {
+    height: 40px;
+    margin-right: 15px;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.BlogPost-titulo{
+    font-family: 'Roboto mono', monospace;
+    font-size: 20px;
+    position: relative;
+    margin-left: 50%;
+}
+
+
+.linea-blogposts {
+    border: none;
+    height: 2px;
+    background-color: #cdd2da;
+    width: 100%;
+}
+
+
+.skills-top{
+    position: relative;
+    justify-content: space-around; 
+
+}
+
+.first img{
+    display: column;
+    position: relative;
+    width: 200px;
+    
+}
+
+.first h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 0px;  
+}
+
+.second img{
+    display: column;
+    position: relative;
+    width: 200px;
+    
+}
+
+.second h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 0px;  
+}
+
+.third img{
+    display: column;
+    position: relative;
+    width: 200px;
+    
+}
+
+.third h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 0px;  
+}
+
+.skills-top{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-bottom: 60px; 
+    margin-top: 25px;
+}
+
+.skills-down{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .footer-top{
+    width: 100%;
+    height: 5px;
+    display: grid;
+    background-color: grey;
+    margin-top: 70px;
+}
+
+footer .footer-bottom{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #22272d;
+    color: white;
+    text-align: center;
+    align-items: center; 
+}
+
+div h2 {
+    text-align: center;
+}
